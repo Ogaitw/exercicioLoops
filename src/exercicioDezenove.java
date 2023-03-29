@@ -42,7 +42,6 @@ public class exercicioDezenove {
                 total_idades += idade;
                 contador++;
             }
-
         }
         System.out.println("Quantidade de Pessoas Intrevistadas foi de: " + contador + "\n Medias das idadades: " + total_idades / contador);
         System.out.printf("Porcentagem de pessoas que reponderam suas opiniões:\n A= %.2f%% \n B= %.2f%% \n C= %.2f%% \n D= %.2f%% \n E= %.2f%%", (quant_A / contador) * (100), (quant_B / contador) * (100), (quant_C / contador) * (100), (quant_D / contador) * (100), (quant_E / contador) * (100));
